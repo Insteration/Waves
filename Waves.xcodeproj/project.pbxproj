@@ -12,6 +12,10 @@
 		D9DADC09223A5A3200CB406C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DADC07223A5A3200CB406C /* Main.storyboard */; };
 		D9DADC0B223A5A3300CB406C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DADC0A223A5A3300CB406C /* Assets.xcassets */; };
 		D9DADC0E223A5A3300CB406C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DADC0C223A5A3300CB406C /* LaunchScreen.storyboard */; };
+		D9DADC18223A600100CB406C /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DADC17223A600100CB406C /* Wave.swift */; };
+		D9DADC1A223A603500CB406C /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DADC19223A603500CB406C /* WaveView.swift */; };
+		D9DADC1C223A606000CB406C /* WaveStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DADC1B223A606000CB406C /* WaveStorage.swift */; };
+		D9DADC1F223A614D00CB406C /* WaveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DADC1E223A614D00CB406C /* WaveModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D9DADC0A223A5A3300CB406C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DADC0D223A5A3300CB406C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9DADC0F223A5A3300CB406C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DADC17223A600100CB406C /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		D9DADC19223A603500CB406C /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		D9DADC1B223A606000CB406C /* WaveStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveStorage.swift; sourceTree = "<group>"; };
+		D9DADC1E223A614D00CB406C /* WaveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				D9DADC03223A5A3200CB406C /* AppDelegate.swift */,
 				D9DADC05223A5A3200CB406C /* ViewController.swift */,
+				D9DADC1D223A613900CB406C /* WaveModel */,
 				D9DADC07223A5A3200CB406C /* Main.storyboard */,
 				D9DADC0A223A5A3300CB406C /* Assets.xcassets */,
 				D9DADC0C223A5A3300CB406C /* LaunchScreen.storyboard */,
 				D9DADC0F223A5A3300CB406C /* Info.plist */,
+				D9DADC1E223A614D00CB406C /* WaveModel.swift */,
+				D9DADC1B223A606000CB406C /* WaveStorage.swift */,
 			);
 			path = Waves;
+			sourceTree = "<group>";
+		};
+		D9DADC1D223A613900CB406C /* WaveModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9DADC17223A600100CB406C /* Wave.swift */,
+				D9DADC19223A603500CB406C /* WaveView.swift */,
+			);
+			path = WaveModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DADC18223A600100CB406C /* Wave.swift in Sources */,
+				D9DADC1A223A603500CB406C /* WaveView.swift in Sources */,
+				D9DADC1F223A614D00CB406C /* WaveModel.swift in Sources */,
 				D9DADC06223A5A3200CB406C /* ViewController.swift in Sources */,
+				D9DADC1C223A606000CB406C /* WaveStorage.swift in Sources */,
 				D9DADC04223A5A3200CB406C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
